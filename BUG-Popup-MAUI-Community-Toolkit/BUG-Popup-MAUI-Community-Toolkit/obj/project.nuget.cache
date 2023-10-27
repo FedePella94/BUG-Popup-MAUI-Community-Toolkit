@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "EwH+M0/VLQiTMscR4nK4XIYXGfyMcad0cklTGv+YldPG8itZwiMcY6zz6EYMOa6zzWV22M42DrO5uRmPws3psA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Federico\\Documents\\GitHub\\BUG-Popup-MAUI-Community-Toolkit\\BUG-Popup-MAUI-Community-Toolkit\\BUG-Popup-MAUI-Community-Toolkit\\BUG-Popup-MAUI-Community-Toolkit.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Federico\\.nuget\\packages\\communitytoolkit.maui\\6.0.0\\communitytoolkit.maui.6.0.0.nupkg.sha512",
+    "C:\\Users\\Federico\\.nuget\\packages\\communitytoolkit.maui.core\\6.0.0\\communitytoolkit.maui.core.6.0.0.nupkg.sha512",
+    "C:\\Users\\Federico\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\Federico\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Federico\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\Federico\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Federico\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\Federico\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Federico\\.nuget\\packages\\microsoft.extensions.logging.debug\\7.0.0\\microsoft.extensions.logging.debug.7.0.0.nupkg.sha512",
+    "C:\\Users\\Federico\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\Federico\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\Federico\\.nuget\\packages\\microsoft.graphics.win2d\\1.0.5.1\\microsoft.graphics.win2d.1.0.5.1.nupkg.sha512",
+    "C:\\Users\\Federico\\.nuget\\packages\\microsoft.maui.graphics\\7.0.96\\microsoft.maui.graphics.7.0.96.nupkg.sha512",
+    "C:\\Users\\Federico\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.96\\microsoft.maui.graphics.win2d.winui.desktop.7.0.96.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
+    "C:\\Users\\Federico\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
+    "C:\\Users\\Federico\\.nuget\\packages\\system.speech\\7.0.0\\system.speech.7.0.0.nupkg.sha512",
+    "C:\\Users\\Federico\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22621.29\\microsoft.windows.sdk.net.ref.10.0.22621.29.nupkg.sha512",
+    "C:\\Users\\Federico\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.13\\microsoft.aspnetcore.app.runtime.win-x64.7.0.13.nupkg.sha512",
+    "C:\\Users\\Federico\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.13\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.13.nupkg.sha512",
+    "C:\\Users\\Federico\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.13\\microsoft.netcore.app.runtime.win-x64.7.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

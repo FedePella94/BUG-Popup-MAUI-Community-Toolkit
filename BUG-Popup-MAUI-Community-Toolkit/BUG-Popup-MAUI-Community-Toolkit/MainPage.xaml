@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BUG_Popup_MAUI_Community_Toolkit.MainPage"
+             x:Name="MainPageUserControl">
+    <NavigationPage.TitleView>
+        <Grid WidthRequest="{Binding Source={x:Reference MainPageUserControl}, Path=Width}" BackgroundColor="#004E2B">
+            <Grid HorizontalOptions="Start" WidthRequest="{Binding Source={x:Reference MainPageUserControl}, Path=Width, Converter={StaticResource RatioConverter095}}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="header.png" Aspect="AspectFit" HeightRequest="40" Margin="6,0,0,0"></Image>
+                <HorizontalStackLayout Grid.Column="1" Margin="24,0,6,0" HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="BUG_Popup_MAUI_Community_Toolkit" HorizontalOptions="Start" VerticalOptions="Center" FontSize="Micro" TextColor="White" />
+                </HorizontalStackLayout>
+                <HorizontalStackLayout Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center">
+                    <Label Text="Version:" TextColor="White"></Label>
+                    <Label Text="0.0.0" TextColor="White" Margin="6,0,0,0"></Label>
+                </HorizontalStackLayout>
+            </Grid>
+        </Grid>
+    </NavigationPage.TitleView>
+
+    <ContentPage.MenuBarItems>
+        <MenuBarItem Text="...">
+            <MenuFlyoutSubItem Text="Emissione DDT">
+                <MenuFlyoutItem Text="Sacco"  />
+                <MenuFlyoutItem Text="Sfuso/Rinfusa" />
+                <MenuFlyoutItem Text="Palette" />
+            </MenuFlyoutSubItem>
+            <MenuFlyoutSeparator/>
+            <MenuFlyoutItem Text="Gestione DDT" />
+            <MenuFlyoutSeparator/>
+            <MenuFlyoutSubItem Text="Abilitazione">
+                <MenuFlyoutItem Text="Sfuso/Rinfusa" />
+                <MenuFlyoutItem Text="Gestione Sfuso/Rinfusa" />
+            </MenuFlyoutSubItem>
+            <MenuFlyoutSeparator/>
+            <MenuFlyoutSubItem Text="Utilità">
+                <MenuFlyoutItem Text="Profilo cementeria" />
+                <MenuFlyoutItem Text="Modifica numero DDT" />
+            </MenuFlyoutSubItem>
+            <MenuFlyoutSeparator/>
+            <MenuFlyoutSubItem Text="Stampe" >
+                <MenuFlyoutItem Text="Lista bolle" />
+                <MenuFlyoutItem Text="Riepilogo Uscite" />
+            </MenuFlyoutSubItem>
+            <MenuFlyoutSeparator/>
+            <MenuFlyoutItem Text="Informazioni" />
+            <MenuFlyoutSeparator/>
+            <MenuFlyoutSubItem Text="SAP" >
+                <MenuFlyoutItem Text="Aggiorna Anagrafica" />
+                <MenuFlyoutItem Text="Trasmetti DDT" />
+            </MenuFlyoutSubItem>
+        </MenuBarItem>
+
+    </ContentPage.MenuBarItems>
+    
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                Source="dotnet_bot.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Hello, World!"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Welcome to .NET Multi-platform App UI"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Button
+                Text="CanBeDismissedByTappingOutsideOfPopup = FALSE"
+                Clicked="BtnFALSE_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                Text="CanBeDismissedByTappingOutsideOfPopup = TRUE"
+                Clicked="BtnTRUE_Clicked"
+                HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
